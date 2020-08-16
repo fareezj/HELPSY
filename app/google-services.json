@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "459307143689",
+    "firebase_url": "https://helpsy-fareez.firebaseio.com",
+    "project_id": "helpsy-fareez",
+    "storage_bucket": "helpsy-fareez.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459307143689:android:b29c043dd158d6a10b5ed8",
+        "android_client_info": {
+          "package_name": "com.fareez.helpsy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459307143689-3o366bvj8i3kkf80sfmv7vcbhua2lh4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fareez.helpsy",
+            "certificate_hash": "4044398696ea96882147a89b3d5a58ba0595023f"
+          }
+        },
+        {
+          "client_id": "459307143689-b61rakvjvhqm58uuqsrgep58oa1ducg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIDF93MI-MHcg9mJCcPt7t_ceWMOqfw1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459307143689-b61rakvjvhqm58uuqsrgep58oa1ducg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

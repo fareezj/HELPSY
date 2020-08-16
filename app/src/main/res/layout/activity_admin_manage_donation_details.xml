@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    android:layout_margin="15dp">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="480dp"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimary"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/post_Name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Donation Post Name - "
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_Name_Details"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Donation Post Name"
+            android:layout_toRightOf="@+id/post_Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_FoodLevel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_Name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Food Level - "
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_FoodLevel_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_Name"
+            android:layout_toRightOf="@+id/post_FoodLevel"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Food Level"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_BookLevel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Book Level - "
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_FoodLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_BookLevel_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Book Level"
+            android:layout_toRightOf="@id/post_BookLevel"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_FoodLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_ClothLevel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cloth Level - "
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_BookLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_ClothLevel_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cloth Level"
+            android:layout_toRightOf="@id/post_ClothLevel"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_BookLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/post_SSID"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Network SSID"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_ClothLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_SSID_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Network SSID"
+            android:layout_toRightOf="@+id/post_SSID"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_ClothLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_SignalStrength"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Signal Level -"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_SSID"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_SignalStrength_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Signal Level"
+            android:layout_toRightOf="@id/post_SignalStrength"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_SSID"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_wirelessSecurity"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Security Type -"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_SignalStrength"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_wirelessSecurity_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Security Type"
+            android:layout_toRightOf="@id/post_wirelessSecurity"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_SignalStrength"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_Status"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Post Status -"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_wirelessSecurity"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_Status_Details"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Post Status"
+            android:layout_toRightOf="@id/post_wirelessSecurity"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_wirelessSecurity"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/enable_post_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/post_Status"
+            android:layout_centerHorizontal="true"
+            android:text="Enable Donation Box"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorPrimaryDark"
+            />
+
+        <Button
+            android:id="@+id/disable_post_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/enable_post_btn"
+            android:layout_centerHorizontal="true"
+            android:text="Disable Donation Box"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

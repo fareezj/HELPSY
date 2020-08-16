@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Helpsy</string>
+    <string name="app_logo">Helping Urban Poverty in Kuala Lumpur</string>
+    <string name="title_activity_donation_maps">Map</string>
+</resources>

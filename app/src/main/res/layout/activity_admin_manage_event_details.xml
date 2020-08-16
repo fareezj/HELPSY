@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".AdminManageEventDetails">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/event_image_details"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/event_name_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_image_details"
+            android:text="Event Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/event_date_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_name_details"
+            android:text="Event Date"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/event_pax_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_date_details"
+            android:text="----------------------------------------"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/event_desc_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_pax_details"
+            android:text="Event Descriptions"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/volunteer_list_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_desc_details"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:text="Volunteers List"
+            android:layout_marginTop="60dp"
+            />
+
+        <Button
+            android:id="@+id/edit_event_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/volunteer_list_btn"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Edit Event Details"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:id="@+id/delete_event_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_event_btn"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Delete Event"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="30dp"
+            />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

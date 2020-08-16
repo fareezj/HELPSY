@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/volunteer_image"
+        android:layout_width="152dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/app_bar_settings"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user" />
+
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimary"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/volunteer_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Volunteer Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/volunteer_phone"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Volunteer Phone"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/volunteer_name"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/volunteer_email"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Volunteer Email"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/volunteer_phone"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/volunteer_attendance"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/volunteer_email"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="(Click to set attendance)"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

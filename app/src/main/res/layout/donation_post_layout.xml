@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    android:layout_margin="15dp">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimary"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/post_Name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Donation Post Name - "
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_Name_Input"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Donation Post Name"
+            android:layout_toRightOf="@+id/post_Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_FoodLevel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_Name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Food Level - "
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_FoodLevel_Input"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_Name"
+            android:layout_toRightOf="@+id/post_FoodLevel"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Food Level"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_BookLevel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Book Level - "
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_FoodLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_BookLevel_Input"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Book Level"
+            android:layout_toRightOf="@id/post_BookLevel"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_FoodLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_ClothLevel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cloth Level - "
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_BookLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_ClothLevel_Input"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cloth Level"
+            android:layout_toRightOf="@id/post_ClothLevel"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_BookLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_Status"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Post Status -"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_ClothLevel"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/post_Status_Input"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Post Status"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/post_ClothLevel"
+            android:textSize="14dp"
+            android:layout_toRightOf="@id/post_Status"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

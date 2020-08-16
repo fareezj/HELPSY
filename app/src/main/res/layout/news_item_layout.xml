@@ -1,0 +1,68 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:padding="10dp"
+    android:id="@+id/cardview"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="News Date"
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/thumb_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/date_text"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="News Title"
+            android:ellipsize="end"
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/thumb_img"
+            android:layout_centerHorizontal="true"
+            android:background="#80000000"
+            android:padding="8dp"
+            android:gravity="center"
+            android:lines="1"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+        <TextView
+            android:text="News Content"
+            android:ellipsize="end"
+            android:id="@+id/content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="14dp"
+            android:maxLines="2"
+            android:maxLength="40"
+            android:layout_below="@+id/thumb_img"
+            android:layout_alignRight="@+id/date_text"
+            android:layout_alignEnd="@+id/date_text" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
